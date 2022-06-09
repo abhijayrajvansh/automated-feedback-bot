@@ -1,5 +1,7 @@
 # Automatic-Feedback-Bot
 
+© 2022 Abhijay Rajvansh, All rights reserved.
+
 Steps to follow:
 
 1. Run the code using terminal python
