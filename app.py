@@ -28,6 +28,12 @@ def fill_feedback():
     pressDown()
     pressDown()
     pressDown()
+    pressDown()
+    pressDown()
+    pressDown()
+    pressDown()
+    pressDown()
+    pressDown()
     pressTab()
 
 print("Get ready, and point your cursor at the first index position...")
