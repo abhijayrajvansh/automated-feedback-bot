@@ -22,7 +22,10 @@ def pressDown():
 
 def fill_feedback():
     pressDown()
-    time.sleep(3)
+    time.sleep(1)
+    pressDown()
+    pressDown()
+    pressDown()
     pressDown()
     pressDown()
     pressTab()
