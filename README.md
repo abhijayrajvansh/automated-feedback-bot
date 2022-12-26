@@ -1,6 +1,6 @@
 # Automatic-Feedback-Bot
 
-© 2022 Abhijay Rajvansh, All rights reserved.
+© [Abhijay Rajvansh](http://github.com/abhijayrajvansh), [LinkedIn](https://www.linkedin.com/in/abhijayrajvansh).
 
 Steps to follow:
 
@@ -12,4 +12,4 @@ python3 app.py
 
 2. Wait for the prompt and then place the cursor at the first option and wait
 
-3. Enjoy, your bot is filling your feedback 🚀
+3. Enjoy, the bot is filling your feedback 🚀
