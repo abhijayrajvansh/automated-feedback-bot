@@ -4,7 +4,11 @@
 
 Steps to follow:
 
-1. Run the code using terminal python
+1. Run the code using terminal / command prompt
+
+```
+pip install pynput
+```
 
 ```
 python3 app.py
