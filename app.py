@@ -1,32 +1,34 @@
 #/
 #    author:   abhijayrajvansh
-#    created:  09.06.2022 16:36:38
+#    created:  26.12.2022 11:23:38
 #/
+
 from pynput.keyboard import Key, Controller
 import time
+
 keyboard = Controller()
 
-def fill_feedback():
+def pressTab():
     keyboard.press(Key.tab)
+    time.sleep(0.1)
     keyboard.release(Key.tab)
+    time.sleep(0.1)
+
+def pressDown():
     keyboard.press(Key.down)
+    time.sleep(0.1)
     keyboard.release(Key.down)
     time.sleep(0.1)
-    keyboard.press(Key.down)
-    keyboard.release(Key.down)
-    time.sleep(0.1)
-    keyboard.press(Key.down)
-    keyboard.release(Key.down)
-    time.sleep(0.1)
-    keyboard.press(Key.down)
-    keyboard.release(Key.down)
-    time.sleep(0.1)
-    keyboard.press(Key.down)
-    keyboard.release(Key.down)
-    time.sleep(0.1)
-    keyboard.press(Key.enter)
-    keyboard.release(Key.enter)
-print("Get ready, and point your cursor at the right position...")
+
+def fill_feedback():
+    pressDown()
+    time.sleep(3)
+    pressDown()
+    pressDown()
+    pressTab()
+
+
+print("Get ready, and point your cursor at the first index position...")
 time.sleep(3)
 
 while(True):
