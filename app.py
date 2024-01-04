@@ -1,6 +1,7 @@
 #/
 #    author:   abhijayrajvansh
 #    created:  27.12.2022 11:23:38
+#    updated:  4.01.2024 06:41:23
 #/
 
 from pynput.keyboard import Key, Controller
@@ -23,7 +24,6 @@ def pressDown():
 def fill_feedback():
     pressDown()
     time.sleep(2)
-    pressDown()
     pressDown()
     pressDown()
     pressDown()

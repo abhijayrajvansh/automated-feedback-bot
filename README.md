@@ -1,6 +1,6 @@
 # Automatic-Feedback-Bot
 
-© [Abhijay Rajvansh](http://github.com/abhijayrajvansh), [LinkedIn](https://www.linkedin.com/in/abhijayrajvansh).
+Author: (Abhijay Rajvansh)[https://x.com/rajvanshtwt]. For any queries, feel free to DM!
 
 Steps to follow:
 
